@@ -1,0 +1,30 @@
+<?xml version = "1.0"?>
+<WLANProfile xmlns = "http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>Please dont hack me!!</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>506C6561736520646F6E74206861636B206D652121</hex>
+			<name> Please dont hack me !!</name>
+		<SSID>
+	</SSIDConfig>
+	<connectionType>EES</connectionType>
+	<connectionMode>manual</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>false</protected>
+				<keyMaterial>12345678</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+	<MacRandomization xmlns = "http://www.microsoft.com/networking/WLAN/profile/v3">
+		<enableRandomization>false</enableRandomization>
+		<randomizationSeed>1861131286</randomizationSeed>
+	</MacRandomization>
+</WLANProfile>	
