@@ -16,7 +16,7 @@
   
   ![image](https://user-images.githubusercontent.com/96188342/181912965-671da418-5199-45a2-aa12-2e159a672770.png)
 
-
-10. And you are done !!!
+10. If there is an error with requests then pip install requests command can help u.
+11. And you are done !!!
 
 # Let the Cracking Begin !!! 
